@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	
+	<item
+        android:title="Options"
+		android:icon="@drawable/menu"
+		android:orderInCategory="0"
+		android:showAsAction="always"
+	>
+
+		<menu>
+
+		
+			<item
+				android:id="@+id/about"
+				android:title="ABOUT E-Record "
+				android:icon="@drawable/about"
+				android:showAsAction="always"
+			/>
+		
+		
+			<item
+				android:id="@+id/back"
+				android:title="Back"
+				android:icon="@drawable/back"
+				android:showAsAction="always"
+				
+			/>
+			
+
+			
+
+
+			<item
+				android:id="@+id/logout"
+				android:title="Logout"
+				android:icon="@drawable/logout"
+				android:showAsAction="always"
+			/>
+
+
+
+
+
+		</menu>
+
+	</item>
+
+
+</menu>
+
